@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Tahoma, sans-serif;
+	overflow: hidden;
+}
+
+.kopf {
+	width: 100%;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 3px solid black;
+}
+
+.level, .titel, .point {
+	width: 33.3%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#canvas {
+	background-image: url("../img/map1.png");
+	width: 100%;
+	height: 93vh;
+}

@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	font-family: Tahoma, sans-serif;
+	overflow: hidden;
+	background-color: #3d0101;
+}
+
+.btn {
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background: #1e90ff;
+	padding: 10px;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	border-radius: 8px;
+	cursor: pointer;
+	margin-top: 80px
+}
+
+.go {
+	position: absolute;
+	font-weight: bold;
+	font-size: 80px;
+	letter-spacing: 20px;
+	color: #cc2121;
+	margin-top: -200px;
+}
+
+.score {
+	position: absolute;
+	margin-top: -50px;
+	color: #fff;
+	font-size: 30px;
+}
+
+.quit {
+	margin-top: 200px;
+}
+
+img {
+	height: 100%;
+}
